@@ -1,0 +1,23 @@
+{
+  "name": "marcusmolchany.github.io",
+  "version": "1.0.0",
+  "description": "personal landing page",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusmolchany/marcusmolchany.github.io.git"
+  },
+  "keywords": [
+    "marcus",
+    "molchany"
+  ],
+  "author": "marcus molchany",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcusmolchany/marcusmolchany.github.io/issues"
+  },
+  "homepage": "https://github.com/marcusmolchany/marcusmolchany.github.io#readme"
+}
