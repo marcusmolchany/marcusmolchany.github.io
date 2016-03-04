@@ -1,13 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html manifest="manifest.appcache">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Sup Dog</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcus Molchany</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/app.min.css">
   </head>
-  <body class="body-background">
-    <h1 class="red-bg">Hello World</h1>
-    <script src="js/script.js"></script>
+  <body>
+    <div class="section greeting-section">
+      <video autoplay id="bgvid" loop>
+      </video>
+      <div class="greeting-message-wrapper">
+        <p>Hey, I'm Marcus. Thanks for checking out my landing page.</p>
+      </div>
+      <div class="social-icons">
+        <a class="social-icons-link" href="http://twitter.com/molchanimal" target="_blank">
+          <i class="animated-icon fa fa-twitter"></i>
+        </a>
+        <a class="social-icons-link" href="https://vine.co/marcusmolchany" target="_blank">
+          <i class="animated-icon fa fa-vine"></i>
+        </a>
+        <a class="social-icons-link" href="http://www.linkedin.com/in/marcusmolchany" target="_blank">
+          <i class="animated-icon fa fa-linkedin"></i>
+        </a>
+        <a class="social-icons-link" href="http://www.github.com/marcusmolchany" target="_blank">
+          <i class="animated-icon fa fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <div class="section bio-section">
+      <div class="bio-section-text">
+        <p class="bio-section-paragraph">For the past year I've been in New York working at
+          <a href="https://www.compass.com" target="_blank" style="color: #373737;">Compass</a>.
+          Currently, I am a frontend engineer working in ES6, Angular.js, LESS and Python.
+          Outside of work I focus on nodeJS/Express, Angular.js and Swift.
+        </p>
+      </div>
+    </div>
+    <div class="section showcase-section">
+      <div class="showcase-section-title">
+        things i've worked on
+      </div>
+      <div class="showcase-wrapper">
+        <a class="showcase-section-link" href="http://github.com/marcusmolchany/menu-slider" target="_blank">
+          <div id="showcase-menu-slider" class="showcase">
+            <div class="showcase-title">menu slider</div>
+            <i class="showcase-icon fa fa-bars"></i>
+          </div>
+        </a>
+        <a class="showcase-section-link" href="https://github.com/marcusmolchany/node-express-grunt-starter" target="_blank">
+          <div id="showcase-blog" class="showcase">
+            <div class="showcase-title">node express starter</div>
+            <i class="showcase-icon fa fa-code"></i>
+          </div>
+        </a>
+        <a class="showcase-section-link" href="https://s3-us-west-2.amazonaws.com/io.github.marcusmolchany/Resume-Winter-2015.pdf" target="_blank">
+          <div id="showcase-resume" class="showcase">
+            <div class="showcase-title">resume</div>
+            <i class="showcase-icon fa fa-file-text-o"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="section interests-section">
+      <div class="interests-section-text">
+        <p class="interests-section-paragraph">
+          Software Engineering isn't the only thing filling up my time. I like to run and workout,
+          listen to all kinds of music and travel to wherever my friends are.
+          Occasionally, I'll make a few vines.
+        </p>
+      </div>
+    </div>
+    <div class="section contact-section">
+      <div class="contact-button-wrapper">
+        <a href="mailto:marcusmolchany+landing@gmail.com" target="_top">
+          <button class="contact-button">contact me!</button>
+        </a>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/app.min.js"></script>
   </body>
 </html>
