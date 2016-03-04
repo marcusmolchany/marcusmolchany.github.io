@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/marcusmolchany/marcusmolchany.github.io/issues"
   },
-  "homepage": "https://github.com/marcusmolchany/marcusmolchany.github.io#readme"
+  "homepage": "https://github.com/marcusmolchany/marcusmolchany.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
