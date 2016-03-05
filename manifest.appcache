@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# v3 2016-03-04
+index.html
+css/app.min.css
+js/app.min.js
+https://s3-us-west-2.amazonaws.com/io.github.marcusmolchany/background-img.jpg
+https://s3-us-west-2.amazonaws.com/io.github.marcusmolchany/background-video.mp4
+https://s3-us-west-2.amazonaws.com/io.github.marcusmolchany/background-video.webm
+https://s3-us-west-2.amazonaws.com/io.github.marcusmolchany/Resume-Winter-2015.pdf
+//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css
+
+# Use from network if available
+NETWORK:
+*
+
+# Fallback content
+#FALLBACK:
+#/ fallback.html
